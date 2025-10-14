@@ -1,0 +1,36 @@
+.blocock{
+    margin-top: 100px;
+    &__body{
+        padding:160px;
+        background-color: #8555FA;
+        border-radius: 20px;
+        max-width: 1440px;
+        max-height: 445px;
+        margin: 0 auto;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1{
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 60px;
+            color: #FFFFFF;
+        }
+        a{
+            font-family: 'Inter', sans-serif;
+            text-decoration: none;
+            color: #FFFFFF;
+            background-color: #512EA8;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 50px;
+        }
+    }
+}
