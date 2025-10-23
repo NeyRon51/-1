@@ -19,3 +19,56 @@ To-do List з авторизацією - це онлайн застосунок 
 - 🌐 **Адаптивний інтерфейс** — коректно відображається як на комп’ютері, так і на смартфоні.
 
 ---
+
+```bash
+📦 project1
+ ┣ 📂 img
+ ┃ ┣ 📂 main-photo
+ ┃ ┃ ┣ 📄 main photo.svg
+ ┃ ┃ ┣ 📄 Rocket 2.svg
+ ┃ ┃ ┗ 📄 Thinking Face.svg
+ ┃ ┣ 📄 logoo.svg
+ ┃ ┗ 📄 photo.png
+ ┣ 📂 JS
+ ┃ ┣ 📄 login.js
+ ┃ ┣ 📄 script.js
+ ┃ ┗ 📄 server.js
+ ┣ 📂 php
+ ┃ ┣ 📄 db.php
+ ┃ ┣ 📄 login.php
+ ┃ ┗ 📄 register.php
+ ┣ 📂 server
+ ┃ ┣ 📂 auth
+ ┃ ┣ 📂 migrations
+ ┃ ┣ 📂 node_modules
+ ┃ ┣ 📄 .env
+ ┃ ┣ 📄 app.js
+ ┃ ┣ 📄 db.js
+ ┃ ┣ 📄 package.json
+ ┃ ┗ 📄 package-lock.json
+ ┣ 📂 style
+ ┃ ┣ 📂 blocks
+ ┃ ┣ 📄 main.css
+ ┃ ┣ 📄 main.css.map
+ ┃ ┗ 📄 main.scss
+ ┣ 📄 gallery.html
+ ┣ 📄 index.html
+ ┣ 📄 login.html
+ ┣ 📄 Page2.html
+ ┣ 📄 README.md
+ ┗ 📄 Trello
+```
+
+
+| Категорія           | Технології                      |
+| ------------------- | ------------------------------- |
+| **Frontend**        | HTML, CSS (SCSS), JavaScript    |
+| **Backend**         | PHP                             |
+| **Інструменти**     | Git, Visual Studio Code         |
+| **Контроль версій** | Git + GitHub                    |
+| **Планування**      | Trello, Figma (дизайн сторінок) |
+
+
+🌍 Live Demo
+https://doify.kesug.com
+🌍 Live Demo
