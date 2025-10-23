@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+
+header {
+  padding: 10px 20px;
+}
+.logo {
+  width: 100px;
+}
+
+
+.profile-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+.profile-pic-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  margin-right: 1500px;
+  margin-top: 100px;
+}
+
+
+.profile-pic-wrapper img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+.profile-pic-wrapper img:hover {
+  transform: scale(1.03);
+}
+
+.edit-icon {
+  position: absolute;
+  top: 290px;
+  left: 300px;
+  background: #fff;
+  color: #fff;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+.edit-icon:hover {
+  background: #0056b3;
+}
+
+#file-input {
+  display: none;
+}
+
+
+.container100 {
+  width: 100%;
+  left: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.AboutUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-box2 {
+  width: 100px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 50px;
+  background: url(images/photo.png) center/cover;
+  position: relative;
+  transition: width 0.5s;
+}
+
+.img-box2:nth-child(2){background: url(images/photo.png) center/cover;}
+.img-box2:nth-child(3){background: url(images/photo.png) center/cover;}
+.img-box2:nth-child(4){background: url(images/photo.png) center/cover;}
+.img-box2:nth-child(5){background: url(images/photo.png) center/cover;}
+.img-box2:nth-child(6){background: url(images/photo.png) center/cover;}
+.img-box2:nth-child(7){background: url(images/photo.png) center/cover;}
+
+
+.img-box2 h3 {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;             /* активуємо flex */
+  justify-content: center;   /* горизонтальне центрування */
+  align-items: center;       /* вертикальне центрування */
+  text-align: center;
+  opacity: 0;                /* приховуємо спочатку */
+  transition: opacity 0.5s;
+  padding: 10px;             /* відступи, щоб текст не торкався країв */
+}
+
+.img-box2:hover {
+  width: 300px;
+  cursor: pointer;
+}
+
+.img-box2:hover h3 {
+  opacity: 1;                /* показуємо при наведенні */
+}
